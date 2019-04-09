@@ -13,7 +13,15 @@ def first_challenge
     }
   }
 
-  #your code here
+  conctact.each do |person, data|
+    if contact == "Freddy Mercury"
+  data.each do |attribute, value|
+    if attribute == :favorite_icecream_flavors
+      array.shift()
+    end 
+  end 
+
+  
 
 
   #remember to return your newly altered contacts hash!
